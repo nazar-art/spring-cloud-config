@@ -1,7 +1,7 @@
-### Demo project for Spring Cloud Config usage
+## Demo project for Spring Cloud Config usage
 
 
-#### Instructions
+### Instructions
 
 - update url for `spring-cloud-config-server` at yaml file:
 
