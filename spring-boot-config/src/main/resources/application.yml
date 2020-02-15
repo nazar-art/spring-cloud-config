@@ -1,0 +1,26 @@
+server:
+  port: 8081
+
+app:
+  name: Spring Cloud Config Client app
+  description: Welcome to ${app.name}
+
+# Samples for Custom Properties
+my:
+  greeting: Hello World from config server
+  list: One, Two, Three
+
+db:
+  connection: connection string here
+  host: 127.0.0.1
+  port: 1200
+
+# Configuration for Config Client
+management.endpoints.web.exposure.include: "*"
+
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+  application:
+    name: spring-boot-config

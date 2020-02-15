@@ -1,0 +1,24 @@
+spring-cloud-config-server/target/
+spring-boot-config/target/
+
+### IntelliJ IDEA ###
+spring-cloud-config-server/.idea
+spring-boot-config/.idea
+
+spring-cloud-config-server/*.iws
+spring-boot-config/*.iws
+
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/

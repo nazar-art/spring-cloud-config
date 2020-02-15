@@ -1,0 +1,11 @@
+
+server.port: 8888
+
+# REMOTE REPO
+#spring.cloud.config.server.git.uri: https://github.com/nazar-art/test-driven-spring-boot
+
+# LOCAL REPO
+spring.cloud.config.server.git.uri: ${HOME}/Projects/IdeaProjects/JavaBrains/spring-cloud-config/config-repo
+#spring.cloud.config.server.git.uri: file:/home/nazar/Projects/IdeaProjects/JavaBrains/spring-cloud-config/config-repo
+
+
